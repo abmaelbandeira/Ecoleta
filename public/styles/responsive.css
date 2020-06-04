@@ -28,6 +28,21 @@
         height: 200px;
     }
 
+    #page-create-point form {
+        padding: 20px;
+    }
+
+    #page-create-point .field-group{
+        flex-direction: column;
+    }
+
+    #page-create-point .field-group .field + .field {
+        margin-left: 0;
+    }
+
+    #page-create-point fieldset .items-grid {
+        grid-template-columns: 1fr;
+    }
 }
 
 @media (max-width: 420px){
